@@ -1,5 +1,10 @@
 # passwordGenerator
 
+This browser-based application generates a random password based on user-selected criteria.  It has dynamically updated HTML and CSS powered by JavaScript code.  It features a clean user interface and is responsive.  
+
+## User Story
+
+An employee with access to sensitive data wants to randomly generate a password so that they are able to create a strong and secure password.  This finished application meets the needs of the user by prompting  meets certain criteria
 
 # 03 JavaScript: Password Generator
 
@@ -7,7 +12,7 @@ Create an application that generates a random password based on user-selected cr
 
 If you are unfamiliar with special characters, take a look at [some examples](https://www.owasp.org/index.php/Password_special_characters).
 
-" !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~" 
+
 
 ## User Story
 

@@ -17,13 +17,13 @@ let firstChar;
 let secondChar;
 let thirdChar;
 let forthChar;
-const randomIndex;
-const randomChar;
+let randomIndex;
+let randomChar;
 
 
 function getInfo() {
   howLong = prompt("How many characters long should your password be?");
-  if (howLong < 8 || > 128) {
+  if (howLong < 8 || howLong > 128) {
     alert("Please choose a length of at least 8 characters and no more than 128 characters.");
   }
   else {
@@ -47,10 +47,10 @@ function generatePassword() {
   getMore();
   if (wantLower && wantUpper && wantNum && wantSpec)  {
     //forcing the password to contain at least one lower, one upper, one num, and one spec, then a random selection of any of them
-    let firstChar() = lowerArray[Math.floor(Math.random()*lowerArray.length)];
-    let secondChar() = upperArray[Math.floor(Math.random()*upperArray.length)]; 
-    let thirdChar() = numArray[Math.floor(Math.random()*numArray.length)];
-    let forthChar() = specArray[Math.floor(Math.random)()*specArray)];
+    let firstChar = lowerArray[Math.floor(Math.random()*lowerArray.length)];
+    let secondChar = upperArray[Math.floor(Math.random()*upperArray.length)]; 
+    let thirdChar = numArray[Math.floor(Math.random()*numArray.length)];
+    let forthChar = specArray[Math.floor(Math.random)()*specArray)];
     newPass.push(firstChar, secondChar, thirdChar, forthChar);
     //only run the for loop for the remaining needed characters
     for (let i = 0; i < howLong-4; i++) {
